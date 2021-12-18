@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="hamburger">
+      <div></div>
+    </div>
+
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <h1>Jane Doe,<br />Front-end developer</h1>
+  </header>
+
+  <section id="about">
+    <div class="left">
+      <img id="back-img" src="site/image.jpg" alt="" />
+      <img id="front-img" src="site/person.jpeg" alt="Jane Doe" />
+    </div>
+
+    <div class="right">
+      <h2>About me</h2>
+      <article>
+        <p>
+          Hi, I'm Jane Doe. I've been a junior front-end developer for 5
+          months now.
+        </p>
+        <p>For me, programming is not just a job, it's a hobby.</p>
+        <p>
+          I'm open to new knowledge, I like to study new technologies and
+          apply them in practice.
+        </p>
+        <p><strong>Skills:</strong> HTML, CSS, JS, React.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="projects">
+      <figure>
+        <img src="site/project1.png" alt="Flashcards project" /><br />
+        <button class="open-window">Flashcards</button>
+
+        <div class="window">
+          <h2>Flashcards</h2>
+          <p>
+            You can see the project at the following link:
+            <a href="#">flashcards</a>.
+          </p>
+          <p>
+            I did this project when I was studing the frontend on HyperSkill.
+            I created a web-page with flip-down flesh cards, learned some HTML
+            basics and learned that CSS can easily make a beautiful design.
+          </p>
+          <button class="close-window">Close</button>
+        </div>
+      </figure>
+
+      <figure>
+        <img src="site/project2.png" alt="Virtual piano project" /><br />
+        <button class="open-window">Virtual Piano</button>
+
+        <div class="window">
+          <h2>Virtual Piano</h2>
+          <p>
+            You can see the project at the following link:
+            <a href="#">virtual piano</a>.
+          </p>
+          <p>
+            I did this project when I was studing the frontend on HyperSkill.
+            I created a web-page with a virtual piano, learned some HTML
+            basics and learned that CSS can easily make a beautiful design.
+            Also learned some JS to add interactivity.
+          </p>
+          <button class="close-window">Close</button>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <p>
+      You can contact me at
+      <a href="mailto:test@hyperskill.org">test@hyperskill.org</a><br />
+      or phone number - <a href="tel:+12345678910">12345678910</a>
+    </p>
+    <div class="socials">
+      <a href="#"><img src="site/github.svg" alt="GitHub" /></a>
+      <a href="#"><img src="site/facebook.svg" alt="Facebook" /></a>
+      <a href="#"><img src="site/twitter.svg" alt="Twitter" /></a>
+      <a href="#"><img src="site/instagram.svg" alt="Instagram" /></a>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Jane Doe</h2>
+    <p>2020</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
